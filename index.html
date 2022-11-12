@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <!-- <div id="draggable1" draggable="true">Hello</div>
+    <div id="draggable2" draggable="true">Hello</div>
+    <div id="draggable3" draggable="true">Hello</div>
+
+    <div class="dropbox d1">
+        <div id="draggable4" draggable="true">Hello</div>
+    </div>
+    <div class="dropbox d2">
+        
+    </div>
+    <div class="dropbox d3">
+        
+    </div>
+    <div class="dropbox d4">
+        
+    </div>
+    <div class="dropbox d5">
+        
+    </div>
+    <div class="dropbox d6">
+        
+    </div>
+    <div class="dropbox d7">
+        
+    </div>
+    <div class="dropbox d8">
+        
+    </div> -->
+
+    <script>
+        let mode = 0;
+        let ax,ay,bx,by;
+        let selected = 0;
+        let targetNode, rect;
+        document.addEventListener('click', function(e){
+            if(mode == 0){
+            console.log('sdsd');
+            let box = document.createElement('div');
+            box.className = 'dropbox2';
+            box.style.position = "absolute";
+            box.style.left = e.clientX + "px";
+            box.style.top = e.clientY + "px";
+            let i = box;
+            
+            document.body.appendChild(box);
+
+            
+            i.addEventListener("click" , e => {
+                if(mode == 1){
+                    console.log('ssd');
+                    if(selected == 1){
+                        console.log("selected 2");
+                        selected = 0;
+                        rect = i.getBoundingClientRect();
+                        targetNode = i;
+                        bx = targetNode.offsetLeft + targetNode.offsetWidth / 2;
+                        by = targetNode.offsetTop + targetNode.offsetHeight / 2;
+                        console.log([ax,ay,bx,by]); 
+                        linedraw(parseInt(ax),parseInt(ay),parseInt(bx),parseInt(by));
+                    }
+                    else{
+                        selected += 1;
+                        var rect = i.getBoundingClientRect();
+                        let targetNode = i;
+                        ax = targetNode.offsetLeft + targetNode.offsetWidth / 2;
+                        ay = targetNode.offsetTop + targetNode.offsetHeight / 2; 
+                        console.log([ax,ay]);
+                        console.log(selected);
+                    };
+                };
+            });
+            }
+        });
+        
+
+        const cal = () => {
+            for(i of document.querySelectorAll(".dropbox2")){
+                if(i.innerHTML.trim() == ""){
+                    continue;
+                }
+                else{
+                    console.log(i.classList[1]);
+                    var rect = i.getBoundingClientRect();
+                    let targetNode = i;
+                    let centerX = targetNode.offsetLeft + targetNode.offsetWidth / 2;
+                    let centerY = targetNode.offsetTop + targetNode.offsetHeight / 2;    
+                    console.log(centerX);
+                    console.log(centerY);           
+                    }
+            }
+        }
+        
+        function linedraw(ax, ay, bx, by) {
+            if(ax > bx) {
+                bx = ax + bx; 
+                ax = bx - ax;
+                bx = bx - ax;
+        
+                by = ay + by;
+                ay = by - ay;
+                by = by - ay;
+            }
+        
+            let distance = Math.sqrt(Math.pow(bx - ax, 2) + Math.pow(by - ay, 2));
+            let calc = Math.atan((by - ay) / (bx - ax));
+            let degree = calc * 180 / Math.PI;
+            
+            let line = document.createElement('div');
+            line.style.position = 'absolute';
+            line.style.height = "1px";
+            line.style.transformOrigin = "top left";
+            line.style.width = String(distance) + 'px';
+            line.style.top = ay + "px";
+            line.style.left = ax + "px";
+            line.style.transform = `rotate(${degree}deg)`;
+            line.style.backgroundColor = "black";
+            document.body.appendChild(line);
+        }
+
+        
+        
+
+    </script>
+
+</body>
+</html>
