@@ -1,5 +1,6 @@
 from flask import Flask,render_template,jsonify,request
-
+import subprocess
+from subprocess import PIPE
 
 app = Flask(__name__)
 
@@ -36,6 +37,16 @@ def data():
                 adj1[i-1][j-1] = 1
 
     print(adj1)
+
+    inp = str(m) + "\n"
+    for i in adj1:
+        inp += " ".join(map(str,i)) + '\n'
+
+    print(inp)
+    #sr=subprocess.run("test.exe",input = inp.encode(),stdout=PIPE,shell=True)
+
+    #dirlist=sr.stdout.decode("utf-8")
+    #print(dirlist)
 
     return jsonify({'data' : adj1})
 
