@@ -33,7 +33,7 @@ def data():
     print(adj)
     for i in range(1,m+1):
         for j in range(1,m+1):
-            if "d" + str(j) in adj["d" + str(i)]:
+            if "d" + str(i) in adj and "d" + str(j) in adj["d" + str(i)]:
                 adj1[i-1][j-1] = 1
 
     print(adj1)
@@ -43,11 +43,16 @@ def data():
         inp += " ".join(map(str,i)) + '\n'
 
     print(inp)
-    #sr=subprocess.run("test.exe",input = inp.encode(),stdout=PIPE,shell=True)
+    sr=subprocess.run("color.exe",input = inp.encode(),stdout=PIPE,shell=True)
 
-    #dirlist=sr.stdout.decode("utf-8")
-    #print(dirlist)
-
-    return jsonify({'data' : adj1})
+    dirlist=sr.stdout.decode("utf-8")
+    print(dirlist)
+    t1 = dirlist.split('\n')
+    L = []
+    for i in t1[1:]:
+        if i!= '':
+            L.append(int(i[0]))
+    print(L)
+    return jsonify({'data' : L})
 
 app.run(debug=True)

@@ -13,7 +13,10 @@
     width: 5rem;
     background-color: grey;
     margin: 2rem;
+    border-radius: 1rem;
+    text-align: center;
 }
+
 
 .d1{
     position: absolute;

@@ -32,9 +32,13 @@ let mode = 0;
                         bx = targetNode.offsetLeft + targetNode.offsetWidth / 2;
                         by = targetNode.offsetTop + targetNode.offsetHeight / 2;
                         console.log([ax,ay,bx,by]); 
+                        document.querySelector('.' + selectedele).style.backgroundColor = "grey";
+                        if(selectedele != i.classList[1]){
                         adjmatrix.push([selectedele,i.classList[1]]);
-                        selectedele = "";
                         linedraw(parseInt(ax),parseInt(ay),parseInt(bx),parseInt(by));
+                        }
+                        selectedele = "";
+
                     }
                     else{
                         selected += 1;
@@ -45,6 +49,7 @@ let mode = 0;
                         console.log([ax,ay]);
                         selectedele = i.classList[1];
                         console.log(selected);
+                        i.style.backgroundColor = "orange";
                     };
                 };
             });
@@ -85,6 +90,7 @@ let mode = 0;
             let degree = calc * 180 / Math.PI;
             
             let line = document.createElement('div');
+            line.className = "line";
             line.style.position = 'absolute';
             line.style.height = "1px";
             line.style.transformOrigin = "top left";
@@ -110,6 +116,52 @@ function sendall(){
         },
         type: 'POST'
     }).done(function (data) {
-            console.log(data);
+        let colorb = ['red','green','blue','orange','pink'];
+        let box = document.querySelectorAll('.dropbox2');
+        for(const i in box){
+            let dat = data.data;
+            let ind = dat[parseInt(box[i].classList[1][1])-1];
+            const col = colorb[ind-1];
+            console.log([box[i].classList[1],ind,col]);
+            box[i].style.backgroundColor = col;
+        }
     })
 }
+
+const addv = document.querySelector('.addv');
+const adde = document.querySelector('.adde')
+addv.disabled = true;
+document.querySelector('.colorb').disabled = true;
+
+addv.addEventListener('click' , function(){
+    addv.disabled = true;
+    adde.disabled = false;
+    document.querySelector('.colorb').disabled = true;
+    setTimeout(() => {mode = 0}, 200);
+
+})
+
+adde.addEventListener('click' , function(){
+    mode = 1;
+    adde.disabled = true;
+    addv.disabled = false;
+    document.querySelector('.colorb').disabled = false;
+
+
+})
+
+document.querySelector('.colorb').addEventListener('click', sendall ); 
+
+document.querySelector('.reset').addEventListener('click' , function(){
+    mode = 1;
+    for(i of document.querySelectorAll('.dropbox2')){
+        i.remove();
+    }
+
+    for(i of document.querySelectorAll('.line')){
+        i.remove();
+    }
+
+    setTimeout(() => {mode = 0;},200);
+    no = 0;
+})
