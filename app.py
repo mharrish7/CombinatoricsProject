@@ -26,11 +26,15 @@ def data():
             adj[dat[i+1]].append(dat[i])
     
     n = len(adj)
-
-    m = int(sorted(dat)[-1][1])
+    print(dat)
+    dat2 = []
+    for i in dat:
+        dat2.append(int(i[1:]))
+    print(dat2)
+    m = max(dat2)
     adj1 = [ [0 for i in range(m)] for j in range(m)]
-    print(adj1)
-    print(adj)
+    #print(adj1)
+    #print(adj)
     for i in range(1,m+1):
         for j in range(1,m+1):
             if "d" + str(i) in adj and "d" + str(j) in adj["d" + str(i)]:
@@ -43,7 +47,7 @@ def data():
         inp += " ".join(map(str,i)) + '\n'
 
     print(inp)
-    sr=subprocess.run("color.exe",input = inp.encode(),stdout=PIPE,shell=True)
+    sr=subprocess.run("trail1.exe",input = inp.encode(),stdout=PIPE,shell=True)
 
     dirlist=sr.stdout.decode("utf-8")
     print(dirlist)
@@ -51,7 +55,7 @@ def data():
     L = []
     for i in t1[1:]:
         if i!= '':
-            L.append(int(i[0]))
+            L.append(int(i[0]) + 1)
     print(L)
     return jsonify({'data' : L})
 

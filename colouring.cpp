@@ -25,7 +25,7 @@ class Graph
                 {
                     for(int j=0;j<v;j++)
                     {
-                        if(adj[i][j]==1 && col[j]>col[i])
+                        if(adj[i][j]==1 && col[j]==col[i])
                             col[i]++;
                     }
                     col[i]++;

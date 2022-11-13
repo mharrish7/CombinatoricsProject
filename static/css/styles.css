@@ -9,12 +9,15 @@
 }
 
 .dropbox2{
-    height: 5rem;
-    width: 5rem;
+    height: 3rem;
+    width: 3rem;
     background-color: grey;
     margin: 2rem;
-    border-radius: 1rem;
+    border-radius: 2rem;
     text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 

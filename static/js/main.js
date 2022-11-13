@@ -120,7 +120,7 @@ function sendall(){
         let box = document.querySelectorAll('.dropbox2');
         for(const i in box){
             let dat = data.data;
-            let ind = dat[parseInt(box[i].classList[1][1])-1];
+            let ind = dat[parseInt(box[i].classList[1].slice(1))-1];
             const col = colorb[ind-1];
             console.log([box[i].classList[1],ind,col]);
             box[i].style.backgroundColor = col;
@@ -161,7 +161,10 @@ document.querySelector('.reset').addEventListener('click' , function(){
     for(i of document.querySelectorAll('.line')){
         i.remove();
     }
-
-    setTimeout(() => {mode = 0;},200);
+    adjmatrix = [];
+    setTimeout(() => {addv.disabled = true;
+        adde.disabled = false;
+        document.querySelector('.colorb').disabled = true;
+        setTimeout(() => {mode = 0}, 200);},200);
     no = 0;
 })

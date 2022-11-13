@@ -1,0 +1,406 @@
+description,feedBack,githubUrl,mentors,miniDescription,name,orgOwner,orgType,projects,year
+An Android application that allows users to connect on multiple networking platforms instantly.,,https://www.github.com/mario-vimal/bingebond,,bingebond,BingeBond,5f8c47b1be3c1a48365be3e7,EXTERNAL,,2020-10-15T13:56:12.263Z
+"A basic bill splitting website, with different payment options. Users can create groups, and then split the bill, sending requests to some google pay or other accounts of the user. This might also be extended to a budget manager with bill splitting as one of its features.",,https://github.com/KIRA009/expense-splitter-backend,,exsp,Expense Splitter,5f8c47b1be3c1a48365be3e7,EXTERNAL,,2020-10-15T13:56:12.263Z
+"DeployDaemon can be installed on any server and it makes setting up, and hosting popular Stacks easy and simple. DeployDaemon takes care of setting up the project from its repo, creating apache configurations necessary for the project and let's users customise their configuration by providing them options. This project is under construction as a CLI, which would later on be converted into a Web Application that can be installed on any server and used like phpmyadmin.",,https://github.com/DeerajTheepshi/DeployDaemon,,depdae,Deploy Daemon,5f8c47b1be3c1a48365be3e7,EXTERNAL,,2020-10-15T13:56:12.263Z
+"A real time auctioning system using web sockets. The auction participants can view item details, place bids and view the highest bid on their devices. The auction manager can add items, view the list of bids and pause the bidding process.",,https://github.com/adarshPatel509/auction_system,[],auctionsystem,Auctioning System,5f8c47b1be3c1a48365be3e7,GENERICTOOLS,[],2021-10-15T13:56:12.263Z
+"Webmail Oauth is basically implementing Oauth feature to nitt webmail, where any one can integrate webmail in their projects.This is same like any other oauth i.e google , github where you can enable other users to authorize your OAuth App.",,https://github.com/siva2204/Webmail-Oauth,[],identity provider built on oauth2 and oidc for nitt webmail,Webmail-Oauth,5f7c2a267493b7021b7102bf,EXTERNAL,"[{""$oid"":""5f8dd834c9d6dd03dcbcbdde""},{""$oid"":""5f8dd9f6c9d6dd03dcbcbddf""},{""$oid"":""5f8ddb15c9d6dd03dcbcbde0""}]",2020-10-15T13:56:12.263Z
+"Android app that lets you make various Profiles that can change device volume, ringtones, wallpaper and toggle Bluetooth, wifi, and cellular data. The profiles can be manually selected via widget, or mapped to a location or time for automatic selection.",,https://github.com/shreyshrey71/SplitPersonality,,splitP,SplitPersonality,5f8c47b1be3c1a48365be3e7,EXTERNAL,,2020-10-15T13:56:12.263Z
+A web version of board game scotland yard. Scotland Yard is a board game in which a team of players controlling different detectives cooperate to track down a player controlling a criminal as they move around a board representing the streets of London,,https://github.com/vikram710/scotland_yard,,A web version of Scotland Yard (board game ).,Scotland Yard,5f7c23db7493b7021b7102bb,GAMES,"[{""$oid"":""5f8ea4a7c9d6dd03dcbcbdfb""},{""$oid"":""5f8ea507c9d6dd03dcbcbdfc""},{""$oid"":""5f8ea56dc9d6dd03dcbcbdfd""},{""$oid"":""5f8ea5b3c9d6dd03dcbcbdff""}]",2021-10-15T13:56:12.263Z
+"A MERN Stack Site that provides an easier interface to create, edit, and manage CSS style sheets.
+It is aimed at providing help for creating ordered CSS sheets by making the management of classes, ids, and other selectors better and more visual.",,https://github.com/marmikupadhyay/dwoc-myos-frontend/,,"A MERN Site that provides a GUI for creating, editing, previewing, and saving CSS sheets.",Make Your Own Stylesheet,5f7c2a537493b7021b7102c0,PROGRAMMINGTOOLS,"[{""$oid"":""5f8c7f5071cb6a02d49b3081""},{""$oid"":""5f8c820671cb6a02d49b3082""},{""$oid"":""5f8dc964dfef9f0394b1accb""},{""$oid"":""5f8dcd1cdfef9f0394b1accc""},{""$oid"":""5f8dcee8dfef9f0394b1accd""},{""$oid"":""5f8dd2f9c9d6dd03dcbcbdd7""}]",2021-10-15T13:56:12.263Z
+"We'll be trying to implement a mathematical scripting language identical to bc(https://en.wikipedia.org/wiki/Bc_(programming_language)) in Haskell. We'll be having 3 data types in our language(Int,Double and Bool) and we'll implement all the basic operations performed on them. We'll also be having functions,loops and conditionals. Please refer to the github link for more info about the project.",,https://github.com/dipeshkaphle/hbc,,A mathematical scripting language written in Haskell,hbc,5f8b2ca17493b7021b71035b,EXTERNAL,"[{""$oid"":""5f8e96eac9d6dd03dcbcbdf6""},{""$oid"":""5f8e9b39c9d6dd03dcbcbdf9""}]",2020-10-15T13:56:12.263Z
+"A graphic interface which allows a user to customize and train ML and DL models, without writing a single line of code. Built using Tensorflow.js, training is done within the browser, which reduces the hassle of uploading large datasets. With this project, creating your own models becomes as easy as uploading a csv dataset, selecting the characteristics of your model, and downloading the trained model.",,https://github.com/Pavi114/ModeLite,,A user friendly interface to customize and train machine learning models.,ModeLite,5f8b2d687493b7021b710362,EXTERNAL,"[{""$oid"":""5f8dd181c9d6dd03dcbcbdd6""},{""$oid"":""5f8dd36cc9d6dd03dcbcbdd8""},{""$oid"":""5f8dd43bc9d6dd03dcbcbdda""},{""$oid"":""5f8dd4d4c9d6dd03dcbcbddb""}]",2020-10-15T13:56:12.263Z
+"Simple storage server implemented using AWS S3 API. AWS provides its S3 bucket service which basically is used to store data over the cloud, provide data access to the public or other users. The project aims to provide the same functionality, so for people having small projects, they can host this on their server and get signed links, and get managed access to their resources. It follows S3 API which is public so that to connect to the server people can use existing tools like aws-sdk in the market.",,https://github.com/nimishagarwal76/storage,,Simple server to handle file storage in Java (Spring Boot),storage-s3,5f8bd7687493b7021b710373,EXTERNAL,"[{""$oid"":""5f8d1f0271cb6a02d49b3094""},{""$oid"":""5f8d20d071cb6a02d49b3096""},{""$oid"":""5f8d2ad271cb6a02d49b3098""}]",2020-10-15T13:56:12.263Z
+"basic project based on computer vision made in OpenCV Python which enables the user to draw on their system screen by drawing in air with a target, preferably the tips of your finger, which is tracked by the computer webcam",,https://github.com/AirCanvas/MyCanvas,,Canvas using OpenCV which is drawable by hovering your fingertips in air.,AirCanvas,5f8bd6b47493b7021b710372,UTILITIES,"[{""$oid"":""5f8c76f571cb6a02d49b307e""}]",2020-10-15T13:56:12.263Z
+Fantasy league is a friendly cricket fantasy league app where users can compete against one another in their group. The main aim is to provide the user with a friendly space where he can see how he stands among his group members during every cricket match.,,https://github.com/avikumar15/fantasy-league,,A cricket fantasy league app that lets them play against their friends,Fantasy League,5f8c27567493b7021b71037a,GAMES,"[{""$oid"":""5f8ef127c9d6dd03dcbcbe0b""},{""$oid"":""5f8ef3f4c9d6dd03dcbcbe0d""},{""$oid"":""5f8ef4e6c9d6dd03dcbcbe0f""},{""$oid"":""5f90053a3ffea1002677bdcd""}]",2020-10-15T13:56:12.263Z
+"The software is to detect any improper code of conduct during post covid period in public places. It tests if the minimum distance is maintained among people and also tests if a few other precautionary measures are taken care of, and notifies if not.",,https://github.com/Post-COVID-Code,,Detector to notify improper code of conduct during post covid period in public places,Post-COVID-Code,5f8b3ac47493b7021b710369,EXTERNAL,"[{""$oid"":""5f9036053ffea1002677bdd1""},{""$oid"":""5f9039e63ffea1002677bdd2""}]",2020-10-15T13:56:12.263Z
+A command line tool that alters date of committer and author commits retroactively. Allows changing git history.,,https://github.com/NanthR/git-timeA command line tool to alter date of commits,,A command line tool to alter date of commits,GIT-TIME,5f8b2ca17493b7021b71035a,EXTERNAL,"[{""$oid"":""5f8dc8e1dfef9f0394b1acc9""},{""$oid"":""5f8ea6a9c9d6dd03dcbcbe01""}]",2020-10-15T13:56:12.263Z
+"App to create animated stickers for WhatsApp. It's an app to make creating fun stickers faster, with a user-friendly interface.",,https://github.com/WhatsAppAnimatedStickerMaker/WhatsAppAnimatedStickerMaker,,App to create animated stickers for WhatsApp,WhatsAppAnimatedStickerMaker,5f7c95587493b7021b71030d,EXTERNAL,"[{""$oid"":""5f8c774271cb6a02d49b307f""},{""$oid"":""5f9176fc3ffea1002677bde5""},{""$oid"":""5f9177293ffea1002677bde6""}]",2020-10-15T13:56:12.263Z
+"A platform to rate the humorous skills of people based on different levels, this would be done by the means of a multiplayer game where every single user gets to present something funny and others rate his/her presentation, each game is supposed to be of different levels. Finally after all rounds the person with most rating would  be declared the winner of a game.  
+",,https://github.com/geforce6t/JaJaLand-Backend,,A multiplayer game to rate your humorous content.,JaJaLand,5f8b2d327493b7021b710360,UTILITIES,"[{""$oid"":""5f8c82ca71cb6a02d49b3083""},{""$oid"":""5f8c83ab71cb6a02d49b3084""},{""$oid"":""5f8c83fc71cb6a02d49b3085""},{""$oid"":""5f8c84ca71cb6a02d49b3086""},{""$oid"":""5f8c856571cb6a02d49b3087""}]",2021-10-15T13:56:12.263Z
+"Generalization remains as one of the most fundamental challenges in deep reinforcement learning. Recent evidence points to the fact that reinforcement learning agents are able to overfit large training datasets. Curiosity driven self exploration is an approach adopted for to solve the issue of extrinsic rewards in an environment. This is achieved by formulating the agent's curiosity as the error in an agent’s ability to predict the consequence of its own actions in a visual feature space learned by a self-supervised inverse dynamics model. This project aims to utilize this curiosity driven reinforcement learning agent in procedurally generated environments.",,https://github.com/hrishikeshshekhar/curiosity-learning,,Build a reinforcement learning agent driven by curiosity to learn to play and solve games in procedurally generated environments.,Curiosity Driven Learning,5f8b2df47493b7021b710363,EXTERNAL,"[{""$oid"":""5f8dd5a4c9d6dd03dcbcbddd""}]",2020-10-15T13:56:12.263Z
+"The motto of this project is to make early learning interactive as possible with reward system along with parents to monitor their child's performance. This app consist of games and learning platform services along with community chat service.",,https://github.com/PRADEEPERIYASAMY/FunLearn/tree/master,,FunLearn is a play and learn app for kids to create a strong impact on early learning and make it fun.,FUNLEARN,5f7c24157493b7021b7102bc,EXTERNAL,"[{""$oid"":""5f8e95c8c9d6dd03dcbcbdf4""}]",2020-10-15T13:56:12.263Z
+"This is an Augmented-Reality game inspired from Among Us. The idea is that players will have to gather together physically start the game and then move in the real world to tasks locations. The rules are similar to among us with some modifications for real-world practicality.
+Take a look at the projects below, you are also welcome to suggest new project ideas!",,https://github.com/shambu2k/AUAR-Android,,Its an AR version of among us.,AmongUs - AR (AUAR),5f8b458f7493b7021b71036b,GAMES,"[{""$oid"":""5f8dc962dfef9f0394b1acca""},{""$oid"":""5f8dd051c9d6dd03dcbcbdd4""}]",2021-10-15T13:56:12.263Z
+"Web application for conducting classes, polls, attendance manager, study materials etc..",,https://github.com/indreshp135/ClassWeb,[],Web application for conducting online classes,Online class - Web,5f7c68bf7493b7021b7102c4,GENERICTOOLS,"[{""$oid"":""5f8d1b6371cb6a02d49b3093""},{""$oid"":""5f8d1f8971cb6a02d49b3095""},{""$oid"":""5f90675f3ffea1002677bddd""}]",2021-10-15T13:56:12.263Z
+"Based on Convolution Neural Networks and openCV and inspired from google tesseract, EXTRACT is an Optical Character Recognition (OCR) engine  to extract text from images and convert them to plain text.",,https://github.com/malikakarsh/EXTRACT.git,"[{""$oid"":""5f7c1c7c7493b7021b7102b6""}]",EXTRACT text from images and convert them to plain text.,EXTRACT,5f7c1c7c7493b7021b7102b6,UTILITIES,"[{""$oid"":""6184be7682e29c00130eb9d0""}]",2021-10-15T13:56:12.263Z
+"Plagiarism-checker is a utility that checks if the given code is plagiarised from other sources on GitHub. This will be done using the GitHub API. After all searches are made, user should be shown the score of how much is the extent of plagiarism, and additionally display the sources where the code can be found.",,https://github.com/avikumar15/plagiarism-checker-server,,A utility to check for code plagiarism,Plagiarism Checker,5f8bcff97493b7021b710371,GENERICTOOLS,"[{""$oid"":""5f8edf68c9d6dd03dcbcbe06""},{""$oid"":""5f8ee08bc9d6dd03dcbcbe08""},{""$oid"":""5f8ee4e2c9d6dd03dcbcbe09""},{""$oid"":""5f8ee5efc9d6dd03dcbcbe0a""}]",2021-10-15T13:56:12.263Z
+"#### Deep learning (DL)
+A type of machine learning and artificial intelligence (AI) that imitates the way humans gain certain types of knowledge.
+
+---
+
+#### Neural Network
+A neural network is a series of algorithms that endeavors to recognize underlying relationships in a set of data through a process that mimics the way the human brain operates. It refers to systems of neurons, either organic or artificial in nature.
+
+---
+
+This org aims to explore DL and utilise different models to generate, modify, manipulate and/or analyse the fine arts such as paintings, music, dance, architecture, etc.",,https://github.com/snehh/Style-Transfer,"[{""$oid"":""5f8b34957493b7021b710367""},{""$oid"":""5f8da674dfef9f0394b1acbb""},{""$oid"":""5f7c117e7493b7021b7102b4""}]","Exploring various DL techiques to synthesise, analyse or generate fine arts such as paintings, music, dance, etc.",Visual Arts with Deep Learning,5f7c117e7493b7021b7102b4,UTILITIES,"[{""$oid"":""5f8ee02dc9d6dd03dcbcbe07""},{""$oid"":""6169a58922fc410012e9a5a1""},{""$oid"":""6169a6a722fc410012e9a5a2""}]",2021-10-15T13:56:12.263Z
+WorkGen is a collaboration with TeachForIndia in an effort to use technology to aid teachers around the country by automating question paper generation - https://workgen.org,,https://github.com/PaiAkshay998/WorkGen,,workgen,Workgen,5f8c47b1be3c1a48365be3e7,EXTERNAL,,2020-10-15T13:56:12.263Z
+Timper is a classic tool for passionate coders who spend a lot of time typing. It will keep a track of total time you spend daily as a programmer. Timper will monitor your daily activity and keep a track of the amount of time you code everyday.,,https://github.com/Bhavesh0327/timper,,A tool to track your daily activity as a programmer.,Timper,5f8b5ef27493b7021b71036d,UTILITIES,"[{""$oid"":""5f8d97a2dfef9f0394b1acb7""},{""$oid"":""5f8d98f8dfef9f0394b1acb8""}]",2021-10-15T13:56:12.263Z
+"An app that can create macros to automate tasks in Android.
+
+It has 3 parts
+Trigger, constraints and action
+
+Trigger initiates a macro 
+Action is the tasks to be executed",,https://github.com/sujithkumar216802/macro_manager,,An app that can create macros to automate tasks in Android,Macro manager,5f8b2c947493b7021b710359,PROGRAMMINGTOOLS,"[{""$oid"":""5f925f6f3ffea1002677bdea""},{""$oid"":""5f925fb33ffea1002677bdeb""},{""$oid"":""5f925feb3ffea1002677bdec""}]",2021-10-15T13:56:12.263Z
+"A real time auctioning system using web sockets. The auction participants can view item details, place bids and view the highest bid on their devices. The auction manager can add items, view the list of bids and pause the bidding process.",,https://github.com/delta/auction_system,,A real time auctioning system using web sockets.,Auction-System,5f7c32917493b7021b7102c1,GENERICTOOLS,"[{""$oid"":""5f8dbdf1dfef9f0394b1acc1""},{""$oid"":""5f8f07edc9d6dd03dcbcbe26""},{""$oid"":""5f8f0a47c9d6dd03dcbcbe28""}]",2021-10-15T13:56:12.263Z
+ OPEN SOURCE CULTURE CONTRIBUTION THROUGH APPS,,https://github.com/Muhesh7,"[{""$oid"":""5f7c9bf57493b7021b710312""}]","Project 1--App for making whatsapp Stickers for sharing.
+
+Project 2--App for scheduling messages in whatsapp,instagram,sms,email.",SMdevs,5f7c24ff7493b7021b7102bd,UTILITIES,"[{""$oid"":""5f8d9309dfef9f0394b1acb3""},{""$oid"":""5fb52096e3d04800422c4211""}]",2021-10-15T13:56:12.263Z
+"tvp is a simple emulator for the Nintendo GameBoy system - a handheld game console from the 90s. It takes game cartridge ROMs and let's you play them on the desktop. This is a fun side project I worked on, and I would like to return and make some more improvements. I could use some help adding nifty features, like a debugger that lets you examine running machine code, or some UI enhancements like custom control scheme picker. If you're interested in C++, Emulators, or Computer Systems, this could be a fun project!",,https://github.com/venkat24/tvp,,tvp,tvp - A Nintendo GameBoy Emulator,5f8c47b1be3c1a48365be3e7,EXTERNAL,,2020-10-15T13:56:12.263Z
+"A very basic website for receiver to request for blood, admin to validate request and send an sms to every registered donor with matching blood group.",,https://github.com/adwaith007/blood_donation_portal,,donateblood,Blood Donation Portal,5f8c47b1be3c1a48365be3e7,EXTERNAL,,2020-10-15T13:56:12.263Z
+"Photo Grapher is a graphing app which allows an input of an equation either in the form of a photo that can be clicked or just uploaded or user can also simply type the equation. Image OCR can be used to extract the equation from the picture. Using this equation, a graph has to be plotted on the cartesian plane on the next activity and important points like roots, critical points have to be shown. Graph can also be zoomed in and out.",,https://github.com/avikumar15/PhotoGrapher/,,photographer,Photo Grapher,5f8c47b1be3c1a48365be3e7,EXTERNAL,,2020-10-15T13:56:12.263Z
+"Visualise.ml consists of a set of projects which involves visualising Machine/Deep Learning algorithms in order to provide a strong intuition about the algorithm and mathematical concepts involved with the use of strong JavaScript skills and visualisation libraries. It also involves structured documentation of the mathematical concepts behind these algorithm so it serves as a 'go-to' for looking up anything regarding the rapidly expanding field of Machine Learning.",,https://github.com/jithendaraa/visualise.ml,,visualiseml,Visualise-ML,5f8c47b1be3c1a48365be3e7,EXTERNAL,,2020-10-15T13:56:12.263Z
+"A CLI tool to control various social media platforms all together, with features like; post to all, schedule post, live feeds, manage profile, manage followers etc. ",,https://github.com/adarshPatel509/sociall-cli,,A CLI tool to control various social media platforms all together.,Sociall-CLI,5f7c32917493b7021b7102c1,EXTERNAL,"[{""$oid"":""5f8dc1cadfef9f0394b1acc4""}]",2020-10-15T13:56:12.263Z
+"This is a python project that aims at making the interaction between people easier. The planned features of the project include easier file sharing , connect with friends for voice chat , and other useful features that makes communication easier and faster by making everything possible through just few commands in the command line interface.Check out the github repo for further information.",,https://github.com/ahmed-28/python-share-cli,,A CLI tool made in python for easier and faster sharing of files through command line interface.,Share-cli,5f7c1c6f7493b7021b7102b5,EXTERNAL,"[{""$oid"":""5f8dd131c9d6dd03dcbcbdd5""},{""$oid"":""5f8dd393c9d6dd03dcbcbdd9""},{""$oid"":""5f912b203ffea1002677bde4""}]",2020-10-15T13:56:12.263Z
+"Ever Wanted to change the way Online classes work?, well have you wanted to add your own customisations and execute your own creative ideas and make the experience of Online education better ?...you are absolutely at the right place. Class-ified is the project which was aimed to do the same and which came out of the quest to make online eduaction better and improve the whole experience of both the student and teaching community. Even though there are many platforms which facilitate this, some of the class-ified features like integrated test portal, chat box, online meeting room and real time recording streams feature which also provides an option to upload the recording directly to class-fied play, integrated notes-app which converts the voice into text seamlessly and saves it, etc, gives an amazing learning experience.",,https://github.com/sreecharan-m/class-ified,,"A online learning platform with integrated test portal, online video conferencing and also with real time recorder functionality to record streams.",Class-ified,5f8c1ea07493b7021b710379,EXTERNAL,"[{""$oid"":""5f8dbb2cdfef9f0394b1acbd""},{""$oid"":""5f8dbc1ddfef9f0394b1acbf""}]",2020-10-15T13:56:12.263Z
+"Ever wanted memories to spring out whenever you visit a place close to your heart? Well, Wander just does that, only more beautifully. An one-stop destination which helps the user to post, view and share pictures pertained to a location, the project currently aims at making the experience more lively with augmented reality and story features.",,https://github.com/Rahulvs10/Wander,,wander,Wander,5f8c47b1be3c1a48365be3e7,EXTERNAL,,2020-10-15T13:56:12.263Z
+"Kotlin DSL for Gradle provides a type-safe way to write build logic and an alternative syntax to the Groovy DSL. Kotlin, being a statically typed language, provides compile-time checking while enhancing developer experience with auto-completion, suggestions, refactoring, documentation, navigation, etc. But doing this all manually is complex especially when you have custom configurations due to lack of proper documentation, very less support over StackOverflow.",,https://github.com/ranaaditya/groovy2kts,,Rust CLI for Migrating Android build scripts from Groovy to Kotlin DSL,Groovy2kts,5f7c71207493b7021b7102c5,EXTERNAL,"[{""$oid"":""5f8e8fefc9d6dd03dcbcbdee""},{""$oid"":""5f8e8ffec9d6dd03dcbcbdef""},{""$oid"":""5f8e9003c9d6dd03dcbcbdf0""}]",2020-10-15T13:56:12.263Z
+"Mock server is a lightweight web app that helps you to quickly design your application aspects, without having to worry about the data source. 
+It is basically a server that can serve you data, based on your defined schema and endpoints, so you can focus on the design aspects of the client.",,https://github.com/KIRA009/mock-server,,A lightweight web app that helps you mock server responses for quick client side development,Mock Server,5f7c110e7493b7021b7102b3,PROGRAMMINGTOOLS,"[{""$oid"":""5f8d7e99dfef9f0394b1acaf""},{""$oid"":""5f8dbcaadfef9f0394b1acc0""}]",2021-10-15T13:56:12.263Z
+"A Sketchbook consists of Sketches written using Processing for spreading Visual Literacy.
+This Sketchbook mainly contains sketches written for procecssing's java android-mode.
+New Contribuutors can add new sketches in  Ddfferent modes(javascript, python, R, java,etc) of Processing.
+",,https://github.com/ranaaditya/processing-sketchbook,,Sketchbook written in Processing.,Sketchbook,5f7c71207493b7021b7102c5,EXTERNAL,"[{""$oid"":""5f9f9190e3d04800422c41db""}]",2020-10-15T13:56:12.263Z
+BlogIt is an open-source online publising platform having wide range of topics.,,https://github.com/Meivenkatkumar/blogIt,,A webapp to create and publish blogs.,BlogIt,5f7c1d517493b7021b7102b8,GENERICTOOLS,"[{""$oid"":""5fad6013e3d04800422c4204""}]",2021-10-15T13:56:12.263Z
+"CLI to interact with https://unsplash.com. Unsplash isn't just a photo-gallery, it's a community of generous photographers and consumers to share free photographs. The existing tools don't handle these attribution and credits to the creators of these photos, the famous ones are only built for OSX clients. With core python modules, this project aims to build a platform agnostic CLI tool to interact with Unsplash, and build extra add-on(s) to install wallpapers, live-wallpapers etc.",,https://github.com/plant99/unsplashcl,,uncl,Unsplash-CLI,5f8c47b1be3c1a48365be3e7,EXTERNAL,,2020-10-15T13:56:12.263Z
+"We aim to crate a site that allows users to view generative art (art work made using code) pieces, have open source code, give credit to creators and make the product interactive with viewers. 
+Primary focus at the moment is on Javascript and p5.js based pieces. ",,https://github.com/TanviKumar/generative-art,"[{""$oid"":""5f7c68bf7493b7021b7102c4""},{""$oid"":""5f8b2cbf7493b7021b71035c""}]",Generative Art for All - Make Art with Code.,Generative Art for All (Web/ JS),5f8b2cbf7493b7021b71035c,FUN,"[{""$oid"":""5f8d463a71cb6a02d49b309b""},{""$oid"":""5f8d46b371cb6a02d49b309c""},{""$oid"":""616af6af22fc410012e9a5cb""},{""$oid"":""616af7c422fc410012e9a5cc""}]",2021-10-15T13:56:12.263Z
+"Khet is a chess-like abstract strategy board game using lasers that was formerly known as Deflexion. Players take turns moving Egyptian-themed pieces around the playing field, firing their laser after each move. Most of the pieces are mirrored on one or more sides, allowing the players to alter the path of the laser through the playing field. When a piece is struck by a laser on a non-mirrored side, it is eliminated from the game.
+
+https://en.wikipedia.org/wiki/Khet_(game)",,https://github.com/bestinbthomas/Khet,,Khet is a chess-like abstract strategy board game using lasers.  We are developing an android version of this game using Kotlin and MVVM Architecture,Khet Android,5f8b2c907493b7021b710358,GAMES,"[{""$oid"":""5f8dc615dfef9f0394b1acc6""},{""$oid"":""5f8dc61cdfef9f0394b1acc7""}]",2021-10-15T13:56:12.263Z
+A simple door to door delivery app which can be used by college students. Users can post a list of items needed on our app. Other users who reside in the same hostel or nearby and are currently present in the store / going to get similar products can accept the request and deliver the products to the requestor.,,https://github.com/Vikram710/dwoc,,express partners,Express Partners,5f8c47b1be3c1a48365be3e7,EXTERNAL,,2020-10-15T13:56:12.263Z
+"### 💡 Introduction 💡
+
+As we all know, the Covid19 pandemic changes the way of education, making everything online as soon as possible. Nowadays, chat apps are evolving. Today, I am introducing you to my new app, ""Let's Chat"" this will totally change the game by giving students a platform to interact and collaborate. This app will provide access free to all users for all its features. Through this app, students can message each other, study together, and learn a new way to share notes and stuff. But how is this possible? I am providing these significant features.
+
+#### Chat Messenging 
+- This feature allows WhatsApp like Messenging where users can create groups and have private chats to interact with each other, asking doubts by sending images, videos, and audio files, etc.( this will also help students to take breaks )
+#### Group Meetings
+- Group Meetings allows users to interact with each other and share files and documents while interacting virtually. Here teachers can conduct doubt sessions, Viva, online meetings smoothly.
+#### Go Live
+ - This will help all the schools and colleges to interact with students and take live online lectures. In this, they can share direct assignments, files, documents, pdf, etc., making the conversation more interactive.
+#### Library Section 
+ - This holds tons of online pdf books. Read, Gain a ton of knowledge. Teachers can create personal libraries where students can access all materials with a secret key provided by teachers.
+#### AR Camera
+- Augmented Reality is changing the way of living. This feature will help students by providing a live simulation of educational concepts. Students can also send beautiful filters applied on their face :) to each other (This will increase the quality of interaction and make people feel interactive)
+
+This app will help all the students interact live while studying and for people in the corporate sector for meetings, etc. My goal is to provide the user with overall access in a single packed app Rather than installing different-different apps for various purposes. Without getting lost while scrolling on Instagram, etc. here, users can manage both Social and Education more efficiently. So that's it. Have a Great Day.",,https://github.com/satyamurti/LetsChat,,An opensource Indian chat app 🇮🇳 with new cool concepts.,LetsChat,5f7c234e7493b7021b7102ba,UTILITIES,"[{""$oid"":""5f8efa36c9d6dd03dcbcbe16""},{""$oid"":""5f8efb9ac9d6dd03dcbcbe19""}]",2021-10-15T13:56:12.263Z
+"While starting out with a new node project, the first few hours are spent writing repetitive and monotonous pieces of code is same across different projects. So in situations where time is of the essence like a hackathon, every minute saved will be valuable. So we are creating an desktop application which generates a template for Nodejs which is completely custom made for each user according to their needs
+
+Built with Electronjs and Node
+
+Join [this](https://discord.gg/69G6pUG) discord server to contact us",,https://github.com/BLNDLYBLV/DWOC2020-Node_Builder,,An application to kickstart your node development,Node Builder ,5f7c68267493b7021b7102c3,EXTERNAL,"[{""$oid"":""5f8ef4d7c9d6dd03dcbcbe0e""},{""$oid"":""5f8ffe083ffea1002677bdcc""}]",2020-10-15T13:56:12.263Z
+"CLI to automate database backups with customizable recurring schedules with inbuilt support for cloud storage integration, status report notifications, backup compression and encryption, flexible scheduling of backups and notifications, and backup restoration. ",,https://github.com/hariprasanths/synchly,,CLI to automate database backups with customizable recurring schedules.,Synchly,5f8bdf897493b7021b710375,PROGRAMMINGTOOLS,"[{""$oid"":""5f8d3fb271cb6a02d49b3099""},{""$oid"":""5f8e8082c9d6dd03dcbcbdec""}]",2020-10-15T13:56:12.263Z
+"# Competitive Programming CLI 
+Download and run test cases for popular competitive programming platforms without leaving your terminal 😉👾.",,https://github.com/adityaa30/cpcli/wiki/Delta-Winter-of-Code,"[{""$oid"":""5f8c4b6771cb6a02d49b3056""}]","Competitive Programming CLI
+",cpcli,5f8c4b6771cb6a02d49b3056,GENERICTOOLS,"[{""$oid"":""5f8d94aadfef9f0394b1acb4""},{""$oid"":""5f8eadb3c9d6dd03dcbcbe02""}]",2021-10-15T13:56:12.263Z
+"An open-source game-engine written for implementing multi-player card-based games like Literature, Ace, Hearts, Bridge and Rummy. ",,https://github.com/NavenAllen/backend.cards.io,,"Cards.io is an open-source game-engine written for implementing multi-player card-based games.
+",cards.io,5f8b2c877493b7021b710357,GAMES,"[{""$oid"":""5f8df4ddc9d6dd03dcbcbde3""},{""$oid"":""5f8df56bc9d6dd03dcbcbde4""},{""$oid"":""5f8df63bc9d6dd03dcbcbde5""},{""$oid"":""5f8df693c9d6dd03dcbcbde6""}]",2021-10-15T13:56:12.263Z
+"A web implementation of the Scrabble board game with multiplayer support, rooms and in-game chat.",,https://github.com/cheevu-RS/scrabble,,A web application for the Scrabble boardgame.,Scrabble ,5f8d44df71cb6a02d49b309a,EXTERNAL,"[{""$oid"":""5f8e5f56c9d6dd03dcbcbde9""},{""$oid"":""5f8e61cac9d6dd03dcbcbdea""}]",2020-10-15T13:56:12.263Z
+"DeNote is a note-taking application built using _DerbyJs_. It lets you create notes, organize it within a notebook with real-time updates and markdown support. What distinguishes this from any other notes application would be the way in which notes are organized into _resizable sections_ (consider them to be parts of a chapter) which are further divided into cells and use _keystrokes_ for navigating within a note.",,https://github.com/AananthV/DeNote,,Productivity focused real-time note taking application with a keyboard first approach for quick editing.,DeNote,5f8b2d687493b7021b710362,UTILITIES,"[{""$oid"":""5f8e93e2c9d6dd03dcbcbdf1""},{""$oid"":""5f8e94c7c9d6dd03dcbcbdf2""},{""$oid"":""5f8e955ac9d6dd03dcbcbdf3""},{""$oid"":""5f8e95dbc9d6dd03dcbcbdf5""},{""$oid"":""5f8e97dec9d6dd03dcbcbdf7""}]",2020-10-15T13:56:12.263Z
+A Twitter Bot built using Python. The Bot when tagged in the comment section of any tweet by anyone will get the get the details of the tweet and use the data to predict the number of likes that tweet will get.,,https://github.com/tharun571/SaesorTwitterBot,,"An automated Twitter Bot which when tagged in a comment section of any tweet, will predict the number of likes that tweet will get.",Saesor Twitter Bot,5f8b34957493b7021b710367,FUN,"[{""$oid"":""5f8efc79c9d6dd03dcbcbe1c""},{""$oid"":""5f8f0355c9d6dd03dcbcbe21""}]",2020-10-15T13:56:12.263Z
+"The website has 3 parts:  
+Crawling: Crawls through all the links inside, once given the domain    
+Ranking: Ranks search results based on various algorithms  
+Displaying: Displays search results-links, images, news and videos  ",,https://github.com/senthil2000-dev/Seo,,"A comprehensive website that allows users to crawl domains, get their desired search results by ranking them in an appropriate order,  and display results",Search engine optimization,5f8da674dfef9f0394b1acbb,PROGRAMMINGTOOLS,"[{""$oid"":""5f8dc577dfef9f0394b1acc5""},{""$oid"":""5f8dc8b2dfef9f0394b1acc8""}]",2021-10-15T13:56:12.263Z
+Github Action to check if the commit follows proper guidelines as specified [here](http://karma-runner.github.io/latest/dev/git-commit-msg.html),,https://github.com/adityaa30/check-commit/,"[{""$oid"":""5f8c4b6771cb6a02d49b3056""}]",Github Action to verify commit syntax,check-commit,5f8c4b6771cb6a02d49b3056,PROGRAMMINGTOOLS,"[{""$oid"":""5f8eb71dc9d6dd03dcbcbe03""}]",2021-10-15T13:56:12.263Z
+"Automata is a tool to automatically fetch updated docker images from docker hub and restart the running container using the updated image preserving the current enviroment conditions. This tool will be an advanced version of similar docker image updation tools Watchtower (Golang) and Ouroboros (python). These tools used a simple pull based technique, which used polling, i.e., sending a request to docker hub at fixed intervals to check any changes made in the image, which turned out to be inefficient due to large number of requests made. Automata will be using a 2-way technique where webhooks comes into picture. A tool that can implement both pull ans push based technique to update docker images in your system.",,https://github.com/Bhavesh0327/automata,,Automatic docker updation tool for your system. ,Automata,5f8b5ef27493b7021b71036d,PROGRAMMINGTOOLS,"[{""$oid"":""5f8d9f3adfef9f0394b1acb9""},{""$oid"":""5f8da0ffdfef9f0394b1acba""}]",2021-10-15T13:56:12.263Z
+Mobile App to track and monitor e-rickshaws in NITT campus,,https://github.com/ElzaCS/AutoMate,"[{""$oid"":""5f8c27567493b7021b71037a""},{""$oid"":""5f8b2f4f7493b7021b710365""}]",Mobile App to track and monitor e-rickshaws in NITT campus,AutoMate,5f8b2f4f7493b7021b710365,UTILITIES,"[{""$oid"":""615fe4caffce59001dc44426""},{""$oid"":""615fe536ffce59001dc44427""}]",2021-10-15T13:56:12.263Z
+"""Ezlogs""- This is a log analyzer build upon elastic search. Basically, this project aims to help developers to segregate their logs so that they can save a lot of time in debugging and focus more on their productive work ie. coding. We use Elastic search, celery, and Redis for task queuing, DRF for building rest APIs, and react for frontend development. The challenging task in this project was database designing since log files are quite large in size and how can we optimize user experience, to overcome this we use celery and Redis for taking care of that problem and build API for front-end integration. This is all about my recent project & work you may check out more about me on - https://aryamanz29.github.io/",,https://github.com/Aryamanz29/Elastic-CFC,"[{""$oid"":""6150bceb2f6db90012a31057""}]","""Ezlogs""- This is a log analyzer build upon elastic search.",EzLogs,6150bceb2f6db90012a31057,EXTERNAL,"[{""$oid"":""616d056528d1e400072e09d8""},{""$oid"":""619e61bb7c37b800195d38fb""}]",2021-10-15T13:56:12.263Z
+"Superposition is an international non-profit bridging the gender gap in STEM through events, chapters, and mentorship. Our mission is to empower women in STEM by creating educational opportunities & supportive spaces for pursuing their passions.",,https://github.com/Superposition-Chennai,"[{""$oid"":""5f7c811e7493b7021b7102ed""}]",Empower womxn to power their way through STEM 💜,Superposition Chennai ,5f7c811e7493b7021b7102ed,EXTERNAL,"[{""$oid"":""6163bed7049328001996b1f9""},{""$oid"":""6163c081049328001996b1fa""}]",2021-10-15T13:56:12.263Z
+The web rendered 3D model of NIT-Trichy.,,https://github.com/PriyanshuDangi/Virtual-NITT,"[{""$oid"":""5f7c0dad7493b7021b7102b0""},{""$oid"":""61665a2d049328001996b210""}]",The web rendered 3D model of NIT-Trichy.,Virtual NITT,5f7c0dad7493b7021b7102b0,FUN,"[{""$oid"":""61694a7d22fc410012e9a583""},{""$oid"":""61694e9a22fc410012e9a584""},{""$oid"":""6169518b22fc410012e9a585""},{""$oid"":""619b3b367c37b800195d389e""}]",2021-10-15T13:56:12.263Z
+"# Joomla! Scheduled Tasks
+====================
+
+## What is Joomla?
+---------------------
+* [Joomla!](https://www.joomla.org/about-joomla.html) is a **Content Management System** (CMS) which enables you to build websites and powerful online applications.
+* It is a simple and powerful web server application which requires a server with PHP and either MySQL or PostgreSQL to run. You can find [full technical requirements here](https://downloads.joomla.org/technical-requirements).
+* Joomla! is **free and Open Source software** distributed under the GNU General Public License version 2 or later.
+
+## Scheduled Tasks
+Scheduled Tasks is an infrastructure for the Joomla! CMS that offers:
+- A Plugin API for parameterized task routines.
+- Graphical, Command Line and API interfaces for creating, managing and scheduling Tasks based on task routines.
+
+## Contributing
+The best place to find out about Scheduled Tasks and get involved with the development process is the project's GitHub repository. Please note that this repository is not the same as the repository for the Joomla! CMS. Scheduled Tasks was developed under the SOC'21 by ISCAS and openEuler and is yet to be merged as part of the core Joomla! CMS. The primary development repository at the moment comes under the Joomla! Projects organization on GitHub. To find out more about the current goals of the project and how you can help, you're encouraged to contact me on Twitter (@ditsuke00), RingCentral (Tushar M), LinkedIn (@mtushar00) or GitHub (@ditsuke).",,https://github.com/joomla-projects/soc21_website-cronjob/,"[{""$oid"":""614f16a22f6db90012a31044""}]",Task Scheduler for the Joomla! CMS,Joomla! Scheduled Tasks,614f16a22f6db90012a31044,EXTERNAL,"[{""$oid"":""616d083928d1e400072e09da""}]",2021-10-15T13:56:12.263Z
+Pseudorandom advanced projects ,,https://github.com/qexle,"[{""$oid"":""61495979d912d80019db8314""}]",Pseudorandom advanced projects ,qexle,61495979d912d80019db8314,EXTERNAL,"[{""$oid"":""616d09b728d1e400072e09dc""},{""$oid"":""6190a0a082e29c00130eba02""},{""$oid"":""6190a3c882e29c00130eba03""},{""$oid"":""6190a41182e29c00130eba04""},{""$oid"":""6190a89882e29c00130eba05""},{""$oid"":""6190a96e82e29c00130eba06""}]",2021-11-14T07:08:03.750Z
+"Soomvaar is the repo which  contains different collection of  code in Python and Machine  learning algorithms that is made during  my practice and learning of ML and Python and now it is part of various open source events 
+
+",,https://github.com/Ayush7614/Soomvaar,"[{""$oid"":""6157e1df2f6db90012a3106f""},{""$oid"":""6165a828049328001996b206""}]","Soomvaar is the repo which  contains different collection of code in Python and Machine  learning algorithms that is made during 📃 my practice and learning of ML and Python
+
+",Soomvaar,6157e1df2f6db90012a3106f,EXTERNAL,"[{""$oid"":""616d0b5128d1e400072e09de""}]",2021-10-15T13:56:12.263Z
+"A Mobile Application using Flutter for suggesting healthier alternative food products based on the food product they choose.
+Basically User will scan the bar-code of the food product and based on that our app will suggest users the healthier alternative using ML and Image Processing and if the barcode is not in our database we will ask the user to upload the food-product details into our DataBase.
+
+
+Tech-Stack
+* Front-End: Flutter  
+* Back-End: Flask
+* DataBase: MongoDB","Short description must be short
+",https://github.com/SMDEVS,"[{""$oid"":""5f7c24ff7493b7021b7102bd""},{""$oid"":""5f8b3ac47493b7021b710369""}]","A Mobile Application using Flutter for suggesting healthier alternative food products based on the food product's barcode they choose.
+",FoodTruck,5f7c24ff7493b7021b7102bd,FOODANDTRAVEL,"[{""$oid"":""61606781ffce59001dc4442b""},{""$oid"":""6160695effce59001dc4442c""},{""$oid"":""61606b84ffce59001dc4442d""}]",2021-11-25T15:52:58.194Z
+"## FullBrick🍉
+An Organisation made by Ex-Ninjas who have mastered Fruit-Slicing using all sorts or programming languages.
+
+View our [GitHub Repositories](https://github.com/FullBrick) for Amazing projects ",,https://github.com/FullBrick,"[{""$oid"":""614b4af4c021000012a19a31""},{""$oid"":""614057c93db32200121e3dc4""},{""$oid"":""614481e8d912d80019db82ef""},{""$oid"":""61680ef522fc410012e9a564""}]",A Fruit-Full Coding Company🍹,FullBrick Studios,614b4af4c021000012a19a31,GAMES,"[{""$oid"":""61680f3522fc410012e9a565""},{""$oid"":""6168134c22fc410012e9a567""},{""$oid"":""6168154e22fc410012e9a568""},{""$oid"":""616a952522fc410012e9a5ba""}]",2021-10-15T13:56:12.263Z
+"GMetri is a no-code platform to create and manage Virtual and Augmented Reality enabled gamified experiences. Best for Employee training, E-Commerce, Immersive Tours and much more.
+[Visit here](https://www.gmetri.com/help) to learn more.
+
+## Notes:
+### GMetri data structure library plugins (Open Source)
+- Typed Sentence to GMetri Rule Conversion
+- Unity VR project importer (It’s ok even if logic isn't imported, as long as Panos/images get imported it’s fine)
+- Minecraft world to GMetri experience importer
+### GMetri File manager plugins (Open Source):
+- Integrate Apple API to convert photos to 3D models - Allow these models to get imported in File Manager [link](https://developer.apple.com/documentation/realitykit/creating_a_photogrammetry_command-line_app) . iOS app to export to a common location. with a code. If code is entered in File Manager, the model gets imported into GMetri
+### GMetri elements (Closed Source):
+- rtmp stream integration into the video element: Rendering realtime video stream in 3D space
+- DepthKit volumetric video rendering in a GMetri experience
+",,https://github.com/gmetrixr,"[{""$oid"":""616306af049328001996b1f1""}]",No-Code XR Platform to build your Metaverse,GMetri,616306af049328001996b1f1,EXTERNAL,"[{""$oid"":""6163d718049328001996b1fb""},{""$oid"":""6163d795049328001996b1fc""},{""$oid"":""6163d877049328001996b1fd""}]",2021-10-20T21:48:25.613Z
+"# Secret Box
+Open Source Advanced Steganography tool used to hide secret files inside image, audio, video or other binary files.
+
+## Getting Started
+
+### Prerequisites
+1. Python (version 3.6 or above)
+### Project Setup
+After forking the repository
+```
+# Clone the forked repository
+https://github.com/<git-username>/secret_box.git
+
+# Enter project directory
+cd secret_box
+
+# Run the scripts
+python3 steg.py
+```
+
+## Reporting Issues
+If you think you've found a bug, or something isn't behaving the way you think it should, please raise an issue on GitHub.
+
+## Contributing
+All contributions are welcome! We strive to maintain a welcoming and collaborative community.
+Action to check if the commit follows proper guidelines as specified [here](http://karma-runner.github.io/latest/dev/git-commit-msg.html).",,https://github.com/shankarjp/secret_box,"[{""$oid"":""6145acb1d912d80019db82f8""}]","Open Source Advanced Steganography tool used to hide secret files inside image, audio, video or other binary files.",Secret Box,6145acb1d912d80019db82f8,PROGRAMMINGTOOLS,"[{""$oid"":""616d4cfc580073001a536d40""}]",2021-10-15T13:56:12.263Z
+"We welcomes newbies to Open Source. Anyone can Contribute in our organization to enhance their skills and obviously our source codes. Mostly our Project Repositories are based on Web Development. 
+
+",,https://github.com/ZeroOctave,"[{""$oid"":""615058412f6db90012a3104d""},{""$oid"":""6163b64b049328001996b1f7""},{""$oid"":""6165c3a0049328001996b20b""}]",Beginner Friendly Web Development Projects,ZeroOctave,615058412f6db90012a3104d,EXTERNAL,"[{""$oid"":""61697b1f22fc410012e9a58b""},{""$oid"":""619caf297c37b800195d38ec""}]",2021-11-18T04:02:44.025Z
+"## Draw-Royale
+
+A cross-platform client similar to [scribbl.io](https://skribbl.io/).
+
+## Plans and Additional features
+
+-  Base classic cross-platform scribble game.
+-  A new team gameplay feature for teams having separate chats for discussions can be called as drawing dumb charades.
+-  Better UI with custom animations and sound.
+
+Server Code: [Draw-Royale-Server](https://github.com/marmikupadhyay/Draw-Royale-Server)
+
+## Getting Started
+
+This project is a starting point for a Flutter application.
+
+A few resources to get you started if this is your first Flutter project:
+
+- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
+- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+
+For help getting started with Flutter, view our
+[online documentation](https://flutter.dev/docs), which offers tutorials,
+samples, guidance on mobile development, and a full API reference.
+
+
+",,https://github.com/dhruv1294/Draw-Royale-App,"[{""$oid"":""5f8b2d207493b7021b71035f""},{""$oid"":""5f7c95587493b7021b71030d""},{""$oid"":""5f7c2a537493b7021b7102c0""},{""$oid"":""5f8b2d057493b7021b71035d""},{""$oid"":""5f8b2ca17493b7021b71035a""}]","A cross-platform client similar to scribbl.io, with options to play in teams and play minigames like Pictionary which uses Dart for Frontend and Typescript for backend.",Draw Royale,5f8b2d207493b7021b71035f,GAMES,"[{""$oid"":""6169436b22fc410012e9a581""},{""$oid"":""616d4ab4580073001a536d3d""}]",2021-10-15T13:56:12.263Z
+"## Quick Mail CLI
+
+[![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/)
+
+[![PyPi version](https://badgen.net/pypi/v/quick-mail/)](https://pypi.org/project/quick-mail/)
+[![PyPI download month](https://img.shields.io/pypi/dm/quick-mail.svg)](https://pypi.python.org/pypi/quick-mail/)
+
+Quick Mail CLI is an open-source command-line interface to send emails quickly and without leaving the terminal.
+
+### Motivation
+
+Sending last-minute mails using conventional tools can get annoying and tiresome. This CLI helps in such situations since it makes sending mail hassle-free and very quick.
+",,https://github.com/avikumar15/quick-mail-cli,"[{""$oid"":""5f8c27567493b7021b71037a""}]",A command-line interface to send emails without any hassle,Quick Mail,5f8c27567493b7021b71037a,UTILITIES,"[{""$oid"":""6173401882e29c00130eb96a""},{""$oid"":""6173451a82e29c00130eb96b""}]",2021-10-15T13:56:12.263Z
+"PicWiz is an online photo editing web application made using CamanJS that allows the user to edit, download and re-edit previously edited photos.",PICWIZ might be better org name,https://github.com/simmiggrwl,"[{""$oid"":""614d9bf82f6db90012a31034""}]","A web app to edit, download and re-edit previously edited photos. ",PICWIZ,614d9bf82f6db90012a31034,UTILITIES,"[{""$oid"":""61695d0422fc410012e9a587""}]",2021-10-15T13:56:12.263Z
+"I'm Prathima Kadari, an embedded professional with wide expertise on  automation / embedded software industry with specialized projects. I successfully endorse a hat of technical blogger and  actively indulge in mentoring and judging various hackathons. 
+
+Along with it, I'm also a freelancer and open source enthusiast who works on building innovative solutions for pressing needs. I've many open source projects which are constantly maintained and been part of different programs around.
+
+My Tech Stacks : Embedded Systems, Artificial Intelligence, Internet Of Things and Web Development
+Programming Languages : Python, C, C++, HTML, CSS, JS
+
+Passionate for learning and exploring new technologies💭. I believe in giving my best and love what I do🤓. Life is too short to explore all and more I learn, the more I grow💻. 
+
+I'm presently working on building my online presence🛠 and doing my best to spread knowledge🎆 & mentor budding developers📝 who are starting out their journey into tech👋",,https://github.com/prathimacode-hub,"[{""$oid"":""6165a828049328001996b206""},{""$oid"":""6157e1df2f6db90012a3106f""},{""$oid"":""614964d2d912d80019db8315""},{""$oid"":""5f7c1c7c7493b7021b7102b6""},{""$oid"":""5f7c811e7493b7021b7102ed""}]","Welcome geeks. Peep in here to get a taste of an immersive experience working alongside realistic projects. Get indulged.
+
+Folks who will be shortlisted to this organization and showcases amazing performance throughout the period would be facilitated with Certificate of Contribution and Letter Of Recommendation.",Fiesta Of Projects,6165a828049328001996b206,EXTERNAL,"[{""$oid"":""61671727049328001996b217""},{""$oid"":""61671e92049328001996b218""},{""$oid"":""61693aab22fc410012e9a57d""}]",2021-10-21T06:34:05.144Z
+"Bug-finder is an automation tool for your web pentesting task. If you are the person who is passionate in the field of bug bounty and capture the flag kind of events, then this is for you.",,https://github.com/Dhanush-T/website-cracker,"[{""$oid"":""614059b73db32200121e3dc5""}]",Bug-finder is an automation tool for your web pentesting task.,BUG-FINDER,614059b73db32200121e3dc5,PROGRAMMINGTOOLS,"[{""$oid"":""61687bfd22fc410012e9a571""}]",2021-10-15T13:56:12.263Z
+"Trippr is a mobile app that contains many features like trip planning (to do with web scraping), shared gallery, media sharing with face recognition, bill splitter, etc.
+
+Stack: Django, Flutter, Python",,https://github.com/Trippr-dwoc,"[{""$oid"":""5f7c68267493b7021b7102c3""}]","An mobile app with a cluster of features to improve your tripping (travel) experience
+",Trippr,5f7c68267493b7021b7102c3,FOODANDTRAVEL,"[{""$oid"":""616bf95e22fc410012e9a5e1""},{""$oid"":""616bf80b22fc410012e9a5e0""},{""$oid"":""616bf69622fc410012e9a5df""},{""$oid"":""616bec5a22fc410012e9a5dd""}]",2021-10-15T13:56:12.263Z
+"### CoTaxie
+
+""CoTaxie"" can thought as a hybrid of gmaps,uber and weather app built on android studio.
+
+### Run For Life
+
+""Run for Life"" is a creative build of 3d games like Templerun,Subwaysurfers..etc,implemented within the app,with a light on awareness of covid 19.
+
+Don't forget to join our[discord server](https://discord.gg/3Q2gpwdn).",,https://github.com/Yeshwanth-G/CoTaxie-App,"[{""$oid"":""6156f21f2f6db90012a3106d""},{""$oid"":""6141cb18d4afd20019e6d64d""}]","CoTaxie is a safety guiding application to taxie drivers, that alerts them if they enter into a region with more number of covid cases.",CoTaxie,6156f21f2f6db90012a3106d,FOODANDTRAVEL,"[{""$oid"":""61695b8c22fc410012e9a586""}]",2021-10-19T08:20:26.659Z
+An app to track your friends or family members by creating a circle and shows direction to reach them.,,https://github.com/Ram-20062003/Track-Droid,"[{""$oid"":""61477afbd912d80019db830a""}]","Tracking app to track friends or family members using Java and firebase as backend. It shows the location of the members in map along with their street , area and also gives directions to reach them .",Track-Droid,61477afbd912d80019db830a,GENERICTOOLS,"[{""$oid"":""61693f1322fc410012e9a57f""}]",2021-10-15T13:56:12.263Z
+"**DAuth is the NITT’s webmail OAuth2.0 implementation that supports authorization code grant flow. OAuth 2.0 is a security standard where a user can give one application permission to access their data in another application. Our focus is to secure users' long-term credentials and hassle-free integration of DAuth with any applications.**
+
+
+### [website](https://auth.delta.nitt.edu/) [documentation](https://delta.github.io/DAuth-Docs/) [github](https://github.com/orgs/delta/teams/dauth/repositories)
+
+",,https://github.com/orgs/delta/teams/dauth/repositories,"[{""$oid"":""5f7c2a267493b7021b7102bf""},{""$oid"":""5f7c838b7493b7021b7102f1""},{""$oid"":""5f8b3ac47493b7021b710369""},{""$oid"":""5f8b3aea7493b7021b71036a""}]",Webmail OAuth2.0 service,DAuth,5f7c2a267493b7021b7102bf,PROGRAMMINGTOOLS,"[{""$oid"":""616d8010580073001a536d43""},{""$oid"":""616d8204580073001a536d44""}]",2021-10-15T13:56:12.263Z
+"WebSyCode aims at invoking the engineer inside you, our primary goal is to make people aware with recent technologies and advancements which can bring a change in their life and business. We train them to give them industry knowledge and work on real life projects. We develop solutions for client's Digital identity on web, we work considering their efforts and dedication. We Train new generations on cutting edge technologies to meet the requirements of future.
+We Develop, You Grow!
+This is our fist step to promote open source among beginners and guide them throughout their journey. We have already trained 30+ batches of students about the new technologies, programming languages, coding, etc.",,https://github.com/websycode,"[{""$oid"":""6141db1ed4afd20019e6d658""}]","We will guide students to contribute in our repositories 'Lets-Shop'  and 'The-Cafeteria' from scratch and help them to learn new concepts.",WebSyCode,6141db1ed4afd20019e6d658,EXTERNAL,"[{""$oid"":""61696e3e22fc410012e9a58a""},{""$oid"":""617a3a2282e29c00130eb99d""}]",2021-10-30T07:18:28.892Z
+A Spotify command-line utility.,,https://github.com/geforce6t/SpotifyGoCLI,"[{""$oid"":""5f8b2d327493b7021b710360""}]",A Spotify command-line utility.,SpotifyGoCLI,5f8b2d327493b7021b710360,FUN,"[{""$oid"":""6169340122fc410012e9a57b""},{""$oid"":""6169349122fc410012e9a57c""}]",2021-10-15T13:56:12.263Z
+"We are a organisation who is committed to make learning of blockchains as easy as possible. We need developers, contributors who can help in improving the portal to make learning process easy. Blockchain knowledge is not needed. We are looking for Full Stack Developers who can code amazing stuff
+
+TechStack:
+
+- Nodejs/Django
+- HTMl/CSS
+- Javascript
+- MYSQL
+- MongoDB
+- Cloud
+- ReactJS
+- Python
+",,https://github.com/orgs/theblockchainchief/,"[{""$oid"":""615cb3aeffce59001dc44422""}]",The one stop solution to get started with blockchain!,The Blockchain Chief,615cb3aeffce59001dc44422,EXTERNAL,"[{""$oid"":""616aefef22fc410012e9a5c4""},{""$oid"":""616af50c22fc410012e9a5c6""},{""$oid"":""616b0e3d22fc410012e9a5cf""}]",2021-10-20T20:58:56.600Z
+"# Movie-stash
+Social media for movie buffs
+",,https://github.com/ArvinthanKJ/movie-stash,"[{""$oid"":""6168fa7922fc410012e9a575""}]",Social media for movie buffs,Movie Stash,6168fa7922fc410012e9a575,FUN,"[{""$oid"":""616941bd22fc410012e9a580""}]",2021-10-15T13:56:12.263Z
+A react library which to allow users to map objects in hexagonal grid pattern. The users must be able to install it as an npm package and pass an array of objects to the component and the objects should be rendered in a hexagonal grid by the library.,,https://github.com/nishihere19/hexgrid-react,"[{""$oid"":""5f7c838b7493b7021b7102f1""},{""$oid"":""5f7c1c7c7493b7021b7102b6""}]",A react library which to allow users to map objects in a hexagonal grid pattern.,hexgrid-react,5f7c838b7493b7021b7102f1,PROGRAMMINGTOOLS,"[{""$oid"":""616acb6f22fc410012e9a5c0""}]",2021-10-15T13:56:12.263Z
+"Computer vision based rock, paper, scissors game using open-cv",,https://github.com/KSIX2,"[{""$oid"":""6165aeac049328001996b209""}]","Have you played rock paper scissors with your computer? If not, you have to checkout this org! ",Rock Paper Scissors ,6165aeac049328001996b209,GAMES,"[{""$oid"":""616985ab22fc410012e9a598""}]",2021-10-18T11:52:37.517Z
+"OpenGenus is an open community that is changing the way we understand and discuss Algorithms and Computing concepts. We have made several ""World's first"" products. OpenGenus is backed by Discourse, DigitalOcean and GitHub.
+
+Some of the major open-source projects by OpenGenus include:
+
+* World's Largest Contributor driven and Open Source Code dataset: [Cosmos](https://github.com/opengenus/cosmos)
+* [OpenGenus IQ](https://iq.opengenus.org): A web resource providing explanation of various Computing concepts
+* World's First Offline Code search engine: Quark (powered by Cosmos)
+* CINT: A tool presenting new Computing fact in every new tab
+
+Resources built by OpenGenus is being used by 500K+ users monthly and over 2K developers have contributed.
+
+Participants can choose a specific sub-domain in Computing and contribute towards it.
+
+Participants at DWOC will be offered Contribution certificate and Letter of Recommendation (by OpenGenus) which will help in securing new opportunities.",,https://github.com/OpenGenus/cosmos,"[{""$oid"":""6168a94f22fc410012e9a573""}]","OpenGenus is an open community that is changing the way we understand and discuss Algorithms and Computing concepts. We have made several ""World's first"" products.",OpenGenus,6168a94f22fc410012e9a573,EXTERNAL,"[{""$oid"":""6169930d22fc410012e9a59a""}]",2021-10-15T13:56:12.263Z
+"### Programmer Lyf Bot
+
+This discord bot brings in the latest news, the latest memes, the latest rants and everything needed to make a programmer's life complete
+
+#### Screenshots
+
+| ![](https://i.imgur.com/lNFQ9IC.png) | ![](https://i.imgur.com/Lm26WaH.png) | ![](https://i.imgur.com/oyFpqlT.png) |
+| --- | --- | --- |
+| ![](https://i.imgur.com/gCLUH45.png) | ![](https://i.imgur.com/7dAxim7.png) | ![](https://i.imgur.com/THUHhyI.png) |
+
+#### Development
+1. Copy `.env.example` to `.env`
+2. Fill out the required tokens in `.env`
+3. Change the config files in `config/` as required
+4. `virtualenv venv && source venv/bin/activate`
+5. `pip3 install -r requirements.txt`
+4. Good to go!",,https://github.com/CaptainIRS/programmer-lyf-bot,"[{""$oid"":""5f7d06347493b7021b710327""},{""$oid"":""5f8dbb38dfef9f0394b1acbe""}]","This discord bot brings in the latest news, the latest memes, the latest rants and everything needed to make a programmer's life complete",programmer-lyf-bot,5f7d06347493b7021b710327,PROGRAMMINGTOOLS,"[{""$oid"":""616af0da22fc410012e9a5c5""}]",2021-10-15T13:56:12.263Z
+"Alongwith, Semikolan is also a platform for like minded learners, developers and Enthusiasts to learn, connect, create great connections and work on great projects among themselves and for the community. The Semikolan team is a group of Self Learners, Innovative Minds and Tech Enthusiasts passionate about building Technical Stuffs.
+The community is currently working on various projects including our own [website](https://semikolan.co), [Blog Website](https://blog.semikolan.co) and many more [projects on Github](https://github.com/semikolan-co).
+
+Check out more about us at [links](https://semikolan.co/links)
+
+Join the Discord for more discussions [here](https://discord.semikolan.co)",,https://github.com/semikolan-co,"[{""$oid"":""6165c3a0049328001996b20b""},{""$oid"":""61635c92049328001996b1f5""}]",SemiKolan is a community where you can build things and help others. ,Semikolan,6165c3a0049328001996b20b,EXTERNAL,"[{""$oid"":""6168230822fc410012e9a56b""},{""$oid"":""6169bee022fc410012e9a5ac""},{""$oid"":""6169c10e22fc410012e9a5ad""},{""$oid"":""6169c19c22fc410012e9a5ae""},{""$oid"":""6169c28c22fc410012e9a5b0""},{""$oid"":""616ee8ac580073001a536d81""}]",2021-10-18T11:13:04.977Z
+"A website for creating and hosting mashup contests where problems can either be created on own or taken from popular competitive programming websites.
+ It also contains a CLI tool where user can check the output quickly.",,https://github.com/abesheknarayan/PolyJudge,,A website for creating mashup contests from popular cp websites,PolyJudge,5f9057433ffea1002677bdd4,GENERICTOOLS,"[{""$oid"":""5f9059e73ffea1002677bdd6""},{""$oid"":""5f905a3d3ffea1002677bdd7""}]",2021-10-15T13:56:12.263Z
+"## Travelers Community
+---
+This is an app to connect travelers where users can find the other users based on the location saved by the other users who traveled to the selected location and allow them to chat among them to have better travel experience.
+
+#### Features
+
+Find Users,Chat,Rating,
+
+#### Tech Stack
+
+Backend-FireBase, Language-Kotlin, Authentication-Email.
+",,https://github.com/sarvesh-03/Travellers_community,"[{""$oid"":""61406a067932aa00129d82b3""}]",App to Find travelers and interact.,Travelers Community,61406a067932aa00129d82b3,FOODANDTRAVEL,"[{""$oid"":""616ac25522fc410012e9a5be""}]",2021-10-15T13:56:12.263Z
+"Devbot is a CLI to make development faster. It lets you manage multiple projects by having a seperate to-do list for each one and it is also integerated with github which allows you to push the to-do list that you created to GitHub.The CLI should have a list of projects the user is working on currently and each one has it's own to-do list. If the user is mentioned in any issue or PR, this should automatically update the list. Also, if the user wishes, he should be able to push the to-do list to the Project section of GitHub. Also, for each project, the user should be able to write custom pre-push test commands.",,https://github.com/ram2091999/DevBot,,A CLI to make development easier.,DevBot,5f9060013ffea1002677bdd8,EXTERNAL,"[{""$oid"":""5f9063ac3ffea1002677bdda""},{""$oid"":""5f9064763ffea1002677bddb""},{""$oid"":""5f9065203ffea1002677bddc""}]",2020-10-15T13:56:12.263Z
+"# College-Desk
+## College-Desk is a place were we can find all the necessary tools for your online study.
+---
+### Features :
+####  -File conversions from one format to the other
+####  -Sending assignments to friends and storing them on cloud
+####  -Timetable For any semester 
+---
+### Tech Stack :
+####   -Nodejs
+####   -Ejs
+####   -MongoDb
+",,https://github.com/manavagr1108/College-Desk.git,"[{""$oid"":""614057a43db32200121e3dc3""},{""$oid"":""6169839a22fc410012e9a597""}]","App to share , learn and explore",College-Desk,614057a43db32200121e3dc3,GENERICTOOLS,"[{""$oid"":""616ad6b422fc410012e9a5c2""},{""$oid"":""616d4bed580073001a536d3e""}]",2021-10-15T13:56:12.263Z
+"NS-Box is a process isolation tool for Linux inspired by [nsjail](https://github.com/google/nsjail), aiming at ease of use with a YAML based config. It can be useful for hosting Capture The Flag contests (CTFs).",,https://github.com/dipeshkaphle/ns-box,"[{""$oid"":""5f8bcff97493b7021b710371""},{""$oid"":""5f8b2ca17493b7021b71035b""}]",A process isolation tool for Linux,ns-box,5f8bcff97493b7021b710371,PROGRAMMINGTOOLS,"[{""$oid"":""616b0f4922fc410012e9a5d0""},{""$oid"":""616b0fd822fc410012e9a5d1""}]",2021-10-15T13:56:12.263Z
+"Splitwise is an app that tracks a trip's expense and shows how much one person owes to every other group member.
+The ""simplify debt"" option reduces the number of transactions you have to make so that finally, you will only be paying one or a maximum of two people to settle your debt.
+We will be mimicking all the function of the app mentioned above.",,https://github.com/Entriz,"[{""$oid"":""614068477932aa00129d82b2""},{""$oid"":""614f30892f6db90012a31045""}]","Splitwise Clone - A neat simple tool for keeping track of who owes what, great for travelling with friends.",Entrix,614068477932aa00129d82b2,GENERICTOOLS,"[{""$oid"":""61699a9d22fc410012e9a59c""},{""$oid"":""61699f4f22fc410012e9a59f""}]",2021-10-15T13:56:12.263Z
+Blognetic is a platform to publish blog posts which come in variety of categories. Users can follow specific blogs or authors to get their content. This is built with MERN stack.,,https://github.com/deveshwar08/blognetic,"[{""$oid"":""614860e1d912d80019db8310""}]","Blognetic is a platform to publish blog posts in a wide range of topics, built with MERN stack. ",Blognetic,614860e1d912d80019db8310,GENERICTOOLS,"[{""$oid"":""616bf5f422fc410012e9a5de""}]",2021-10-15T13:56:12.263Z
+NSNES-A SNES emulator written in Rust,,https://github.com/NSNES/NSNES,"[{""$oid"":""614056263db32200121e3dc0""},{""$oid"":""6169ab2d22fc410012e9a5a5""}]",A SNES emulator written in Rust,NSNES,614056263db32200121e3dc0,PROGRAMMINGTOOLS,"[{""$oid"":""6169c9c922fc410012e9a5b3""}]",2021-10-21T14:54:59.048Z
+A Dating App for NITT made using MERN stack.,,https://github.com/minicb0/Date-NITTe,"[{""$oid"":""614314c8d912d80019db82d7""},{""$oid"":""6140563d3db32200121e3dc1""}]",A Dating App for NITT made using MERN stack.,Date NITTe,614314c8d912d80019db82d7,FUN,"[{""$oid"":""616ad4c522fc410012e9a5c1""}]",2021-10-15T13:56:12.263Z
+"Reddit bot that analyses users' comment and post history using the Reddit API on python. Sample features include listing the statistics for the most common subreddits that a user has commented on over the last year, the average word count of the messages, average upvote ratio etc",## for heading?,https://github.com/Hedhav/ObsrvrBot,"[{""$oid"":""614056563db32200121e3dc2""}]","Reddit bot that analyses users' comment and post history using the Reddit API on python.",ObsrvrBot,614056563db32200121e3dc2,UTILITIES,"[{""$oid"":""61710660580073001a536da6""}]",2021-10-20T04:49:52.446Z
+"Being from tier-2 and tier-3 colleges, you often face the problem of knowledge gap in our college days. But once you begin walking in the path of tech, you discover a place where people are just like you. 😇✨ 
+We are a group of HITK students trying to fill the knowledge gap and help you find your place of discovery by sharing you the opportunities and resources at the right time!⏱️<br />
+
+This project aims to build the official site for the community page so that any student can use the resources shared by us.
+
+## Tech Stack 🗃
+
+ReactJS
+NodeJs
+MongoDB
+ 
+## Related Repositories 📂
+
+[HITK-TECH-Community/HITK_Tech_Community](https://github.com/HITK-TECH-Community/HITK_Tech_Community) : The repository containing all the broadcasts done by HITK-TECH-Community
+
+
+## Community 👥
+
+[![Slack](https://img.shields.io/badge/chat-on_slack-purple.svg?style=for-the-badge&logo=slack)](https://join.slack.com/t/hitkteckcommunity/shared_invite/zt-njgae7ki-Xn1y4Nmc_bwqwU~tN52vrg)
+
+",,https://github.com/HITK-TECH-Community,"[{""$oid"":""614e2ae22f6db90012a3103f""},{""$oid"":""616bcd6622fc410012e9a5da""}]",We are a group of HITK students trying to fill the knowledge gap and help you find your place of discovery by sharing you the opportunities and resources at the right time!⏱️ 😇✨ ,HITK Tech Community,614e2ae22f6db90012a3103f,EXTERNAL,"[{""$oid"":""616b061222fc410012e9a5ce""}]",2021-10-15T13:56:12.263Z
+"Frontend is built on REACT and Material UI, with node js used for backend. It uses tweepy (python module) to get the posts on twitter and push it to the database.",,https://github.com/malikakarsh/RECONet,"[{""$oid"":""5f7c1c7c7493b7021b7102b6""},{""$oid"":""5f7c838b7493b7021b7102f1""}]",RECONet is a web application to get the latest posts on different vulnerabilities by top hackers on twitter/telegram.,RECONet,5f7c1c7c7493b7021b7102b6,UTILITIES,"[{""$oid"":""616e84e6580073001a536d67""},{""$oid"":""616e869f580073001a536d68""}]",2021-10-19T08:30:29.117Z
+A useful app for students where they can login and feed their timetable and tasks to get reminders accordingly through notifications and widgets with a built-in calender.,,https://github.com/Acad-Assistant/acad-assistant.git,"[{""$oid"":""6169b71122fc410012e9a5a8""}]",An app for students to keep track on their classes and tasks,Acad-Assistant,6169b71122fc410012e9a5a8,GENERICTOOLS,[],2021-10-15T13:56:12.263Z
+In the infrastructure Sector the labours work at a particular location for only a few months after the project is completed they have to search for new opportunities and similarly the employers are not able to get contact of labours easily. So Job Dhoondho will close the gap and help both the employer and the labour.,,https://github.com/vpranavkrishna/JobDhoondho,"[{""$oid"":""614f3b4a2f6db90012a31047""}]",A platform to connect the employer and labour in the infrastructure sector.,Job Dhoondho,614f3b4a2f6db90012a31047,GENERICTOOLS,"[{""$oid"":""616a5b9e22fc410012e9a5b6""},{""$oid"":""6190b2e082e29c00130eba07""}]",2021-11-14T07:21:10.410Z
+"**High Performance, Low latency Trading engine** built on the new kid on the block **""Rust""**. 
+
+This project aims at analyzing the stock market / crypto market under various quantitative strategies and models to come up with the best custom strategy to beat the market. We will be focusing on building faster setups than the current Python based models while ensuring flexibility to accommodate any strategies from simple mathematical formulas to advanced machine learning models and platforms for the trades.
+",,https://github.com/shashank-07/Stonk-Engine,"[{""$oid"":""616ab3cc22fc410012e9a5bc""}]","High Performance, Low latency Trading engine built on the new kid on the block ""Rust"". ",Rusty-50,616ab3cc22fc410012e9a5bc,EXTERNAL,"[{""$oid"":""616bcadf22fc410012e9a5d9""}]",2021-10-15T13:56:12.263Z
+"Desgen is an open-source project dedicated to developing innovative designs through the latest UX/UI technologies to sketch your ideas onto the latest devices and platforms. Most of the open-source organization and platforms have Web Development, Android Development, ML, etc, but ever wonder any organization or project which is completely dedicated to solving real-world problems related to UI? Think about designing a wireless garden management system, or a smart video management system!! In Desgen we have a mission to bring meaningful changes in people's lives, we thrive every day to enable simpler solutions to the most complicated challenges.",,https://github.com/awantika10/Desgen,"[{""$oid"":""614ef90a2f6db90012a31041""}]","We find out which designs work best by studying real users around the world as they interact with actual websites and applications.
+We believe it is more important to rely on what users actually do, rather than what they say they do.",Desgen,614ef90a2f6db90012a31041,EXTERNAL,"[{""$oid"":""616a893d22fc410012e9a5b8""}]",2021-10-15T13:56:12.263Z
+"Canvasbird is an open-source organization to enable collaborative workspaces. 
+
+Canvasboard is our capstone project that aims to converge multiple platforms with eclectic utilities to foster sharing of ideas. This is a student-led effort that is backed by the International Institute of Information Technology, Bangalore.
+
+Canvasboard aims to integrate the varied needs of the user into one workspace. It’s highly modular plugin-based architecture allows it to scale and facilitate multiple use-cases. It’s plug-and-play interface is powerful and elegant and can be easily used by non-tech savvy users as well. 
+
+Since its inception, the tool has been rapidly adopted by institutional organizations on a daily basis and is now catering to the needs of over 15k+ registered users from across thirty organizations.
+",,https://github.com/Canvasbird,"[{""$oid"":""614f0f472f6db90012a31043""}]","A student community-led open-source organization with the mission of providing access to a highly customizable multi-faceted platform for collaborative workspaces.
+",Canvasbird,614f0f472f6db90012a31043,EXTERNAL,"[{""$oid"":""616809e422fc410012e9a562""}]",2021-10-15T13:56:12.263Z
+"CEGeez aims to make your life easier, happier and better. We bring to you applications for your simple everyday tasks. 
+
+WeMime is an android application written in Kotlin which converts sign language to English. It's purpose is to make ISL/ASL readable to everyone with a simple video input",,https://github.com/CEGeezAppz,"[{""$oid"":""616e7018580073001a536d5b""},{""$oid"":""614f3b112f6db90012a31046""},{""$oid"":""6165c454049328001996b20c""}]","Bringing out the Society's Innovators ",CEG,616e7018580073001a536d5b,GENERICTOOLS,"[{""$oid"":""616e7398580073001a536d60""}]",2021-10-21T16:13:34.698Z
+"A voting system web application with customisable polls, admin privileges and client authentication.",,https://github.com/Guruprasanna02/ezVote.git,"[{""$oid"":""613fb5e93db32200121e3dbf""}]",Voting system application,ezVote,613fb5e93db32200121e3dbf,GENERICTOOLS,"[{""$oid"":""6182c5da82e29c00130eb9cb""}]",2021-10-19T07:35:37.117Z
+This project provides calculator and questions for all sciences and also in future computer related topics and coding topics will also be added so that it will be easy for anyone to refer all the topics at one place.,,https://github.com/Tech-N-Science/FunwithScience,"[{""$oid"":""618147c782e29c00130eb9c3""}]",This project for now has calculators of physics and quiz questions. The calculators are helpful in solving long tiring problems in seconds. ,Tech-N-Science,618147c782e29c00130eb9c3,EXTERNAL,"[{""$oid"":""61818aa041bdb600072a910d""}]",2021-11-06T07:26:41.984Z
