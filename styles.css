@@ -1,0 +1,103 @@
+.dropbox{
+    height: 5rem;
+    width: 5rem;
+    background-color: grey;
+    display: inline-block;
+    margin: 2rem;
+    justify-content: center;
+    float: left;
+}
+
+body{
+    background-color: #8BC6EC;
+    background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
+
+}
+
+.dropbox2{
+    height: 3rem;
+    width: 3rem;
+    background-color: #FFDEE9;
+    background-image: linear-gradient(0deg, #FFDEE9 0%, #B5FFFC 100%);
+    margin: 2rem;
+    border-radius: 2rem;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 0px 40px white;
+    animation: glowup 0.5s;
+    transition: 0.5s;
+}
+
+
+.d1{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+}
+
+.line{
+    height: 10px;
+    background-color: #FAACA8;
+    background-image: linear-gradient(19deg, #FAACA8 0%, #DDD6F3 100%);
+    animation: fadein 0.5s;
+}
+
+@keyframes fadein {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+.btn {
+    background: #3498db;
+    background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+    background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+    background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+    background-image: -o-linear-gradient(top, #3498db, #2980b9);
+    background-image: linear-gradient(to bottom, #3498db, #2980b9);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #3cb0fd;
+    background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+    text-decoration: none;
+  }
+
+.btn:disabled{
+    background: #00129e;
+    background-image: -webkit-linear-gradient(top, #00129e, #004e82);
+    background-image: -moz-linear-gradient(top, #00129e, #004e82);
+    background-image: -ms-linear-gradient(top, #00129e, #004e82);
+    background-image: -o-linear-gradient(top, #00129e, #004e82);
+    background-image: linear-gradient(to bottom, #00129e, #004e82);
+    text-decoration: none;
+}
+
+@keyframes glowup {
+    0%{
+        width: 0rem;
+        height: 0rem;
+    }
+    100%{
+        width: 3rem;
+        height: 3rem;
+    }
+
+}
