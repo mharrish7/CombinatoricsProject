@@ -13,8 +13,8 @@ let mode = 0;
             box.className = 'dropbox2';
             box.classList.add("d" + no);
             box.style.position = "absolute";
-            box.style.left = e.clientX + "px";
-            box.style.top = e.clientY + "px";
+            box.style.left = e.clientX - 50 + "px";
+            box.style.top = e.clientY - 50 + "px";
             box.innerText = "d" + no;
             let i = box;
             
@@ -32,7 +32,8 @@ let mode = 0;
                         bx = targetNode.offsetLeft + targetNode.offsetWidth / 2;
                         by = targetNode.offsetTop + targetNode.offsetHeight / 2;
                         console.log([ax,ay,bx,by]); 
-                        document.querySelector('.' + selectedele).style.backgroundColor = "grey";
+                        document.querySelector('.' + selectedele).style.backgroundColor = "#FFDEE9";
+                        document.querySelector('.' + selectedele).style.backgroundImage = "linear-gradient(0deg, #FFDEE9 0%, #B5FFFC 100%)";
                         if(selectedele != i.classList[1]){
                         adjmatrix.push([selectedele,i.classList[1]]);
                         linedraw(parseInt(ax),parseInt(ay),parseInt(bx),parseInt(by));
@@ -49,7 +50,8 @@ let mode = 0;
                         console.log([ax,ay]);
                         selectedele = i.classList[1];
                         console.log(selected);
-                        i.style.backgroundColor = "orange";
+                        i.style.backgroundColor = "#FAD961";
+                        i.style.backgroundImage = "linear-gradient(90deg, #FAD961 0%, #F76B1C 100%)";
                     };
                 };
             });
@@ -92,13 +94,13 @@ let mode = 0;
             let line = document.createElement('div');
             line.className = "line";
             line.style.position = 'absolute';
-            line.style.height = "1px";
+            line.style.height = "5px";
             line.style.transformOrigin = "top left";
             line.style.width = String(distance) + 'px';
             line.style.top = ay + "px";
             line.style.left = ax + "px";
             line.style.transform = `rotate(${degree}deg)`;
-            line.style.backgroundColor = "black";
+            line.style.zIndex = "-1";
             document.body.appendChild(line);
         }
 
@@ -116,7 +118,8 @@ function sendall(){
         },
         type: 'POST'
     }).done(function (data) {
-        let colorb = ['red','green','blue','orange','pink'];
+        let colorb = ['#FF9A8B','green','blue','orange','pink'];
+        let colorb2 = ['radial-gradient(circle, #FF9A8B 0%, #FF6A88 55%, #FF99AC 100%)','green','blue','orange','pink'];
         let box = document.querySelectorAll('.dropbox2');
         for(const i in box){
             let dat = data.data;
@@ -124,6 +127,8 @@ function sendall(){
             const col = colorb[ind-1];
             console.log([box[i].classList[1],ind,col]);
             box[i].style.backgroundColor = col;
+            box[i].style.background = colorb2[ind-1];
+
         }
     })
 }
