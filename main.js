@@ -10,7 +10,7 @@ let mode = 0;
             no += 1;
             console.log('sdsd');
             let box = document.createElement('div');
-            box.className = 'dropbox2';
+            box.className = 'dropbox';
             box.classList.add("d" + no);
             box.style.position = "absolute";
             box.style.left = e.clientX - 50 + "px";
@@ -60,7 +60,7 @@ let mode = 0;
         
 
         const cal = () => {
-            for(i of document.querySelectorAll(".dropbox2")){
+            for(i of document.querySelectorAll(".dropbox")){
                 if(i.innerHTML.trim() == ""){
                     continue;
                 }
@@ -120,7 +120,7 @@ function sendall(){
     }).done(function (data) {
         let colorb = ['#FF9A8B','green','blue','orange','pink'];
         let colorb2 = ['radial-gradient(circle, #FF9A8B 0%, #FF6A88 55%, #FF99AC 100%)','green','blue','orange','pink'];
-        let box = document.querySelectorAll('.dropbox2');
+        let box = document.querySelectorAll('.dropbox');
         for(const i in box){
             let dat = data.data;
             let ind = dat[parseInt(box[i].classList[1].slice(1))-1];
