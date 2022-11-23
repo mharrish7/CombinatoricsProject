@@ -47,7 +47,7 @@ def data():
         inp += " ".join(map(str,i)) + '\n'
 
     print(inp)
-    sr=subprocess.run("trail1.exe",input = inp.encode(),stdout=PIPE,shell=True)
+    sr=subprocess.run("bfs_proj2.exe",input = inp.encode(),stdout=PIPE,shell=True)
 
     dirlist=sr.stdout.decode("utf-8")
     print(dirlist)

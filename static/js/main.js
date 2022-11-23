@@ -32,8 +32,16 @@ let mode = 0;
                         bx = targetNode.offsetLeft + targetNode.offsetWidth / 2;
                         by = targetNode.offsetTop + targetNode.offsetHeight / 2;
                         console.log([ax,ay,bx,by]); 
-                        document.querySelector('.' + selectedele).style.backgroundColor = "#FFDEE9";
-                        document.querySelector('.' + selectedele).style.backgroundImage = "linear-gradient(0deg, #FFDEE9 0%, #B5FFFC 100%)";
+                        if(selectedele != i.classList[1]){
+                        document.querySelector('.' + selectedele).style.backgroundColor = "rgb(221,224,255)";
+                        document.querySelector('.' + selectedele).style.backgroundImage = "linear-gradient(245deg, rgba(221,224,255,1) 0%, rgba(249,122,255,1) 100%)";
+                        i.style.backgroundColor = "rgb(221,224,255)";
+                        i.style.backgroundImage = "linear-gradient(245deg, rgba(221,224,255,1) 0%, rgba(249,122,255,1) 100%)";
+                        }
+                        else{
+                        i.style.backgroundColor = "#FFDEE9";
+                        i.style.backgroundImage = "linear-gradient(0deg, #FFDEE9 0%, #B5FFFC 100%)";
+                        }
                         if(selectedele != i.classList[1]){
                         adjmatrix.push([selectedele,i.classList[1]]);
                         linedraw(parseInt(ax),parseInt(ay),parseInt(bx),parseInt(by));
@@ -94,7 +102,6 @@ let mode = 0;
             let line = document.createElement('div');
             line.className = "line";
             line.style.position = 'absolute';
-            line.style.height = "5px";
             line.style.transformOrigin = "top left";
             line.style.width = String(distance) + 'px';
             line.style.top = ay + "px";
@@ -118,14 +125,15 @@ function sendall(){
         },
         type: 'POST'
     }).done(function (data) {
-        let colorb = ['#FF9A8B','green','blue','orange','pink'];
-        let colorb2 = ['radial-gradient(circle, #FF9A8B 0%, #FF6A88 55%, #FF99AC 100%)','green','blue','orange','pink'];
+        let colorb = ['rgb(180,190,255)','rgb(255,180,180)','rgb(244,250,138)','rgb(138,241,190)'];
+        let colorb2 = ['linear-gradient(245deg, rgba(180,190,255,1) 0%, rgba(82,112,240,1) 71%)','linear-gradient(245deg, rgba(255,180,180,1) 0%, rgba(240,82,82,1) 70%)','linear-gradient(245deg, rgba(138,241,190,1) 0%, rgba(38,148,67,1) 70%)','linear-gradient(245deg, rgba(244,250,138,1) 0%, rgba(221,233,170,1) 70%)'];
         let box = document.querySelectorAll('.dropbox2');
         for(const i in box){
             let dat = data.data;
             let ind = dat[parseInt(box[i].classList[1].slice(1))-1];
             const col = colorb[ind-1];
-            console.log([box[i].classList[1],ind,col]);
+            const col2 = colorb2[ind-1];
+            console.log([box[i].classList[1],ind,col,col2]);
             box[i].style.backgroundColor = col;
             box[i].style.background = colorb2[ind-1];
 
