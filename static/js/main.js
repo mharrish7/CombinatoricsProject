@@ -128,9 +128,15 @@ function sendall(){
         let colorb = ['rgb(180,190,255)','rgb(255,180,180)','rgb(244,250,138)','rgb(138,241,190)'];
         let colorb2 = ['linear-gradient(245deg, rgba(180,190,255,1) 0%, rgba(82,112,240,1) 71%)','linear-gradient(245deg, rgba(255,180,180,1) 0%, rgba(240,82,82,1) 70%)','linear-gradient(245deg, rgba(138,241,190,1) 0%, rgba(38,148,67,1) 70%)','linear-gradient(245deg, rgba(244,250,138,1) 0%, rgba(221,233,170,1) 70%)'];
         let box = document.querySelectorAll('.dropbox2');
+        let ma = -1;
         for(const i in box){
+            console.log(i);
+            if(i == "entries"){
+                break;
+            }
             let dat = data.data;
             let ind = dat[parseInt(box[i].classList[1].slice(1))-1];
+            ma = (ind) > ma ? (ind) : ma;
             const col = colorb[ind-1];
             const col2 = colorb2[ind-1];
             console.log([box[i].classList[1],ind,col,col2]);
@@ -138,6 +144,8 @@ function sendall(){
             box[i].style.background = colorb2[ind-1];
 
         }
+        //console.log("sdsdsd" + ma);
+        document.querySelector('.result').innerText = ma;
     })
 }
 
